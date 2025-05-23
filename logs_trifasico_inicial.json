@@ -1,0 +1,502 @@
+[
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746285025448,
+    "value": "1297"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746285024447,
+    "value": "1280"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746285022453,
+    "value": "148"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746285021451,
+    "value": "291"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746285018447,
+    "value": "243"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284965452,
+    "value": "1306"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284964451,
+    "value": "1293"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284962449,
+    "value": "150"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284961456,
+    "value": "287"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746284959450,
+    "value": "116"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284958452,
+    "value": "238"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284905451,
+    "value": "1311"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284904456,
+    "value": "1299"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284902451,
+    "value": "152"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284901451,
+    "value": "312"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746284899455,
+    "value": "117"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284898453,
+    "value": "273"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284845455,
+    "value": "1314"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284844457,
+    "value": "1298"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284841457,
+    "value": "781"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746284839456,
+    "value": "118"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284838455,
+    "value": "681"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284785466,
+    "value": "1315"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284784455,
+    "value": "1297"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284782460,
+    "value": "153"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284781458,
+    "value": "791"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746284779457,
+    "value": "117"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284778456,
+    "value": "692"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284725460,
+    "value": "1319"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284724459,
+    "value": "1294"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284722460,
+    "value": "138"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284721459,
+    "value": "1151"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746284719458,
+    "value": "105"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284718462,
+    "value": "888"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284665461,
+    "value": "1323"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284662461,
+    "value": "139"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284661461,
+    "value": "955"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746284659462,
+    "value": "106"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284658462,
+    "value": "414"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284605466,
+    "value": "1308"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284604464,
+    "value": "1304"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284602462,
+    "value": "136"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284601471,
+    "value": "485"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746284599464,
+    "value": "105"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284598463,
+    "value": "386"
+  },
+  {
+    "code": "balance_kwh",
+    "event_time": 1746284596466,
+    "value": "7085"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284545466,
+    "value": "1296"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284544467,
+    "value": "1293"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284542468,
+    "value": "134"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284541467,
+    "value": "701"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284538466,
+    "value": "566"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284484483,
+    "value": "1291"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284482468,
+    "value": "132"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284481469,
+    "value": "694"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284478472,
+    "value": "562"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284425471,
+    "value": "1290"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284424477,
+    "value": "1294"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284422470,
+    "value": "133"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284421470,
+    "value": "750"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746284419476,
+    "value": "104"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284418476,
+    "value": "571"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284365473,
+    "value": "1304"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284364484,
+    "value": "1291"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284362472,
+    "value": "136"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284361474,
+    "value": "406"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284358473,
+    "value": "314"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284305477,
+    "value": "1316"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284304482,
+    "value": "1301"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284301482,
+    "value": "382"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746284299477,
+    "value": "105"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284298478,
+    "value": "300"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284245477,
+    "value": "1320"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284244480,
+    "value": "1304"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284241479,
+    "value": "402"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284238478,
+    "value": "315"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284185486,
+    "value": "1317"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284184486,
+    "value": "1302"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284182483,
+    "value": "138"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284181484,
+    "value": "399"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746284179480,
+    "value": "106"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284178481,
+    "value": "318"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284125485,
+    "value": "1314"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284124486,
+    "value": "1298"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284122482,
+    "value": "137"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284121485,
+    "value": "402"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284118481,
+    "value": "313"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284065489,
+    "value": "1312"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284064489,
+    "value": "1294"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284062487,
+    "value": "136"
+  },
+  {
+    "code": "cur_power_1",
+    "event_time": 1746284061489,
+    "value": "699"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746284058486,
+    "value": "571"
+  },
+  {
+    "code": "balance_kwh",
+    "event_time": 1746284056492,
+    "value": "7084"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746284005484,
+    "value": "1305"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746284004488,
+    "value": "1289"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746284002486,
+    "value": "135"
+  },
+  {
+    "code": "cur_current_1",
+    "event_time": 1746283998489,
+    "value": "388"
+  },
+  {
+    "code": "cur_voltage_2",
+    "event_time": 1746283945488,
+    "value": "1309"
+  },
+  {
+    "code": "cur_voltage_1",
+    "event_time": 1746283944488,
+    "value": "1294"
+  },
+  {
+    "code": "cur_power_2",
+    "event_time": 1746283942489,
+    "value": "136"
+  },
+  {
+    "code": "cur_current_2",
+    "event_time": 1746283939489,
+    "value": "105"
+  }
+]

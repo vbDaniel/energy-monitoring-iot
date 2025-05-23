@@ -1,29 +1,37 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { getDeviceData, getAllDevices } from "src/lib/tuyaApi";
+import {
+  getDeviceData,
+  getAllDevices,
+  getDeviceDataById,
+  getDeviceLogsAndSaveToFile,
+  getDeviceFunctions,
+  getDeviceReportLogsAndSaveToFile,
+  getDeviceSpecifications,
+} from "src/lib/tuyaApi";
+import { mapDP_describe_trifasico } from "types";
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
   try {
-    // Obter todos os dispositivos
-    const devices = await getAllDevices();
+    const start = Date.now() - 1000 * 60 * 60; // 1 hora atrás
+    const end = Date.now();
 
-    if (!devices || devices.length === 0) {
-      return res.status(404).json({ error: "Nenhum dispositivo encontrado." });
-    }
+    console.log("Iniciando busca de logs...", start, end);
 
-    // Criar um array para armazenar os dados de todos os dispositivos
-    const devicesData = await Promise.all(
-      devices.map(async (device) => {
-        // Para cada dispositivo, buscar seus dados
-        const data = await getDeviceData(device.id); // Usar 'id' de cada dispositivo
-        return { deviceId: device.id, data }; // Retornar dados de cada dispositivo
-      })
+    const dpsIds = Object.keys(mapDP_describe_trifasico);
+
+    const logs = await getDeviceReportLogsAndSaveToFile(
+      "eb4aea956de9ad0b93ngrg",
+      dpsIds,
+      start,
+      end
     );
 
-    // Enviar os dados dos dispositivos como resposta
-    return res.status(200).json(devicesData);
+    // const logs = await getDeviceSpecifications("eb4aea956de9ad0b93ngrg");
+    console.log("Logs encontrados:", logs);
+    return res.status(200).json(logs);
   } catch (error) {
     console.error("Erro ao buscar dados dos dispositivos:", error);
     return res
