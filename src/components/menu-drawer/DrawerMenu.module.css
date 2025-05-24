@@ -5,7 +5,7 @@
 }
 
 .drawerPaper {
-  background-color: var(--color-secondary-500) !important;
+  background-color: var(--color-secondary-300) !important;
   height: 100vh;
   border-radius: 0px 0px 80px 0px;
   border-color: transparent !important;
@@ -60,7 +60,7 @@
   width: 30px;
   border-radius: 10px 0px;
   padding: 5px;
-  color: var(--color-neutral-50);
+  color: var(--color-secondary-300);
 }
 
 .listItem:hover {
@@ -74,5 +74,5 @@
 }
 
 .listItemActive > svg {
-  color: var(--color-secondary-500);
+  color: var(--color-neutral-50);
 }

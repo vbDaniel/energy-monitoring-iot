@@ -2,6 +2,7 @@
 
 import { Drawer, Typography } from "@mui/material";
 import React, { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 import styles from "./DrawerMenu.module.css";
 
@@ -17,6 +18,8 @@ interface DrawerMenuProps {
 }
 
 const DrawerMenu = ({ drawerWidth }: DrawerMenuProps) => {
+  const pathname = usePathname();
+
   const pagesList = [
     { name: "Monitoramento", path: "/dashboard", icon: LineAxisIcon },
     { name: "Relatórios", path: "/reports", icon: HistoryEduIcon },
@@ -30,7 +33,14 @@ const DrawerMenu = ({ drawerWidth }: DrawerMenuProps) => {
       <div className={styles.listItens}>
         {pagesList.map((item, index) => (
           <Link href={item.path} passHref key={index}>
-            <Button variant="filled" key={index}>
+            <Button
+              variant="filled"
+              key={index}
+              classStyle={`
+                ${styles.listItem} 
+                ${pathname === item.path ? styles.listItemActive : ""}
+              `}
+            >
               <item.icon />
               {item.name}
             </Button>

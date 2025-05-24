@@ -1,228 +1,78 @@
-@keyframes skeletonLoading {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(100%);
-    }
-}
-
-.skeletonBoxShadow {
-    position: relative;
-    height: 10px;
-    width: 100%;
-    overflow: hidden;
-}
-
-.skeletonBoxShadow::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 1px;
-    width: 100%;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.1) 0%,
-        var(--primary-color) 50%,
-        rgba(255, 255, 255, 0.1) 100%
-    );
-    background-size: 200% 100%;
-    animation: skeletonLoading 2s ease-in-out infinite;
-}
-
 .headerContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 36px 0 20px;
-    min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  min-height: 60px;
 
-    background-color: var(--white-color);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid var(--color-neutral-100);
-    position: sticky;
-    width: 100%;
-    top: 0;
-    z-index: 999;
-}
+  background-color: var(--color-secondary-300);
+  box-shadow: 2 2px 4px rgba(220, 255, 187, 0.683);
+  position: sticky;
 
-.breadcrumb,
-.breadcrumb div {
-    gap: 8px;
-}
-
-.breadcrumb span,
-.breadcrumb button {
-    font-size: 12px !important;
-    font-weight: 600;
-    line-height: 16px !important;
-    letter-spacing: 0.5px;
-    text-align: left;
-    text-transform: none !important;
-}
-
-.breadcrumb span {
-    margin-top: 1px;
-}
-
-.emergency {
-    background-color: var(--color-common-alert);
-    color: #f29938;
-    height: 24px;
-    padding: 4px 8px 4px 8px;
-    border-radius: 16px;
-    gap: 8px;
-}
-
-.emergency div {
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0.5px;
-    text-align: left;
-    gap: 4px;
-}
-.emergency span {
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0.5px;
-    text-align: left;
-}
-
-.profileButton {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    cursor: pointer;
-}
-
-.profileButton > div {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  border-radius: 50px;
 }
 
 .profileIcon {
-    position: relative;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-color: var(--color-secondary-200);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--color-secondary-200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 16px;
 }
 
-.actions {
-    display: flex;
-    align-items: center;
-    gap: 24px;
+.profileName {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-primary-950);
 }
 
-.logout {
-    display: flex;
-    align-items: center;
-    gap: 24px;
+.profileName span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .logoutButton {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 120px;
-    padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  padding: 8px 18px;
+
+  background-color: var(--color-secondary-300);
+  box-shadow: 2 2px 4px rgba(220, 255, 187, 0.683);
 }
 
-.profileMenu {
-    display: flex;
-    justify-content: space-between !important;
-    padding-left: 56px !important;
-    gap: 24px;
-    width: 100%;
-
-    padding-right: 12px !important;
+.logoutButton span {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-primary-950);
 }
 
-.profileMenu span {
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0.5px;
-    text-align: left;
-    color: var(--color-neutral-800);
-}
-
-.profileMenu svg path {
-    fill: var(--color-primary-950);
-}
-
-.wrapperNotifications {
-    position: relative;
-    max-height: 32px;
-    max-width: 32px;
-}
-
-.iconNotifications {
-    position: relative;
-    min-width: 32px;
-    min-height: 32px;
-    border-radius: 50%;
-    background-color: var(--color-neutral-50);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    cursor: pointer;
-}
-
-.iconNotifications:hover {
-    background-color: var(--color-neutral-100);
-}
-
-.iconNotifications:hover ~ .bagedNotifications {
-    background-color: var(--color-primary-600);
-}
-
-.bagedNotifications {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-primary-500);
-    font-family: var(--primary-font);
-    color: var(--color-primary-900);
-    border-radius: 50%;
-    font-size: 11px;
-    width: 16px;
-    height: 16px;
-    position: absolute;
-    padding-top: 1px;
-    top: -4px;
-    right: -4px;
+.logoutButton > svg > path {
+  fill: var(--color-primary-950);
 }
 
 @media screen and (max-width: 979px) {
-    .headerContainer {
-        min-height: 70px;
-    }
+  .headerContainer {
+    min-height: 70px;
+  }
 
-    .profileButton span {
-        display: none;
-    }
-
-    .emergency {
-        padding: 4px;
-        height: 32px !important;
-        width: 32px !important;
-    }
-
-    .emergency div {
-        display: none;
-    }
-    .emergency span {
-        display: none;
-    }
+  .profileButton span {
+    display: none;
+  }
 }

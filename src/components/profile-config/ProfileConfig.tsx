@@ -36,21 +36,22 @@ export default function ProfileConfig() {
             aria-haspopup="true"
             aria-expanded={openLogout ? "true" : undefined}
             onClick={handleClickLogout}
-            style={{ width: "fit-content" }}
-            classStyle={styles.profileButton}
-            data-testid="profile-button"
           >
             <div className={styles.profileIcon}>
               {user?.image ? (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={user?.image} alt={"Foto de Perfil"} />
+                <img
+                  src={user?.image}
+                  alt={"Foto de Perfil"}
+                  className={styles.profileImage}
+                />
               ) : (
                 user?.name?.[0]?.toUpperCase()
               )}
             </div>
-            <div>
+            <div className={styles.profileName}>
               <span>{user?.name}</span>
-              <ChevronDown />;
+              <ChevronDown />
             </div>
           </Button>
         }
