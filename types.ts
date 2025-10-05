@@ -1,3 +1,28 @@
+export type Theme = "light" | "dark";
+export type Locale = "en" | "pt";
+
+export interface ConsumptionDataPoint {
+  name: string; // e.g., 'Day 1', 'Mon'
+  actual: number; // in kWh
+  predicted: number; // in kWh
+}
+
+export interface PhaseDataPoint {
+  name: string; // e.g., '12:00'
+  voltage: number;
+  current: number;
+}
+
+export interface Insight {
+  type: "alert" | "info" | "success" | "warning";
+  message: string;
+}
+
+export interface User {
+  name: string;
+  avatarUrl: string;
+}
+
 export const mapDP_describe_trifasico: Record<string, string> = {
   fault: "Falha",
   switch: "Chave",

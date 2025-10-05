@@ -1,0 +1,28 @@
+/* ConsumptionChart.module.css */
+
+.tooltipContainer {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.tooltipContainerDark {
+  background-color: rgba(38, 38, 38, 0.8);
+  border-color: #3f3f46;
+}
+
+.tooltipLabel {
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.tooltipLabelDark {
+  color: #f3f4f6;
+}
+
+.tooltipItem {
+  font-size: 0.875rem;
+}

@@ -12,13 +12,23 @@ export default function Home() {
     <div className={styles.page}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <img src={BlueLogo.src} alt="White Logo" />
+          <img
+            src={BlueLogo.src}
+            alt="White Logo"
+            style={{ width: 120, height: "auto" }}
+          />
         </div>
-        <div>
-          <h1 className={styles.title}>
+        <div className={styles.textContainer}>
+          <h1
+            className={styles.title}
+            style={{ marginBottom: 12, fontSize: 32, fontWeight: 700 }}
+          >
             Bem-vindo ao seu Monitoramento Energético
           </h1>
-          <h2 className={styles.subtitle}>
+          <h2
+            className={styles.subtitle}
+            style={{ marginBottom: 24, fontSize: 20, color: "#555" }}
+          >
             Acesse o sistema de monitoramento de forma rápida e fácil
           </h2>
         </div>
@@ -26,6 +36,8 @@ export default function Home() {
           type="light"
           onClick={() => signIn("google", { callbackUrl: "/dashboard" })}
           label="Entrar com Google"
+          style={{ width: 260, fontSize: 16, borderRadius: 8 }}
+          className={styles.googleButton}
         />
       </div>
     </div>

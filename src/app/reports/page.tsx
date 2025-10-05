@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 
 export default function EnergyMonitor() {
   return (
-    <PagePanel pageTitle={"MONITORAMENTE ENERGETICO"}>
+    <PagePanel>
       <div className={styles.wrapper}>
         <h1>REPORTS LOGS</h1>
       </div>

@@ -1,12 +1,12 @@
 import { useState, MouseEvent } from "react";
-import { Button } from "@/components/buttons";
+import { Button } from "src/components/common/buttons";
 
 import { Logout, ChevronDown } from "src/assets";
 
 import styles from "./ProfileConfig.module.css";
 
 import { useAuth } from "src/context/auth";
-import { MenuModal } from "../modals";
+import { MenuModal } from "../common/modals";
 
 export default function ProfileConfig() {
   const { user, signOut } = useAuth();

@@ -1,24 +1,99 @@
+/* page.module.css */
+
 .wrapper {
   display: flex;
-  flex-direction: row;
-  position: relative;
-  width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
 }
 
-.safeWrapper {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.summaryCard,
+.summaryCardGrafic {
   width: 100%;
   height: 100%;
-
-  padding: 20px;
 }
 
-.headerContainer {
+.summaryGrid {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
+  gap: 1.5rem;
+}
+
+.mainGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.cardTitle {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.cardValue {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.cardUnit {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.cardCost {
+  color: #32cd32;
+}
+
+@media (min-width: 1024px) {
+  .mainGrid {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.sectionTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  height: 100%;
+}
+
+.loadingText {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.insightItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.insightText {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.summaryCardGrafic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

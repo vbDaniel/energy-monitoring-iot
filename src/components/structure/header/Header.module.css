@@ -1,0 +1,111 @@
+/* Header.module.css */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--color-neutral-50);
+  backdrop-filter: blur(4px);
+  padding: 1rem;
+  border-bottom: 1px solid #e5e5e5; /* neutral-200 */
+}
+
+.headerDark {
+  background-color: rgba(23, 23, 23, 0.7); /* neutral-900 */
+  border-bottom: 1px solid #525252; /* neutral-700 */
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sidebarToggle {
+  padding: 0.5rem;
+  border: 20px;
+  color: #525252; /* neutral-600 */
+}
+
+.sidebarToggle svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.sidebarToggleDark {
+  color: #d4d4d4; /* neutral-300 */
+}
+
+.sidebarToggle:hover {
+  background-color: #f5f5f5; /* neutral-100 */
+}
+
+.sidebarToggleDark:hover {
+  background-color: #262626; /* neutral-800 */
+}
+
+.welcomeText {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1c1c1c; /* neutral-800 */
+}
+
+.welcomeTextDark {
+  color: white;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.localeButton,
+.themeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+
+  cursor: pointer;
+
+  border: none;
+  border-radius: 100px;
+
+  color: #525252;
+  background-color: transparent;
+}
+
+.localeButtonDark,
+.themeButtonDark {
+  color: #d4d4d4;
+}
+
+.localeButton svg,
+.themeButton svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.avatar {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+  object-fit: cover;
+  border: 2px solid #84cc16; /* lime-green */
+}
+
+@media (min-width: 640px) {
+  .right {
+    gap: 1rem;
+  }
+  .welcomeTextHidden {
+    display: block;
+  }
+}
